@@ -1,0 +1,227 @@
+/* extra Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .main_right{
+        margin-top: 20px;
+    }
+    .common_btn {
+        font-size: 15px;
+        padding: 5px 30px;
+        margin-bottom: 15px;
+    }
+    #contact_me, #blog, #project, #testimoni, #resume, #hire, #skill, #counter_sec, #service, #about {
+        padding: 60px 0;
+    }
+    .about_right{
+        padding-top: 20px;
+    }
+    .about_right p {
+        font-size: 18px;
+    }
+    .skill_right{
+        padding-top: 15px;
+    }
+    #hire p {
+        margin: 10px 0;
+    }
+    .skill_content {
+        padding-right: 20px;
+    }
+    .skill_left_box {
+        padding-right: 20px;
+    }
+    .shuffle-group .shuffle-me {
+        width: 95.9%;
+    }
+    .shuffle-group .shuffle_one {
+        height: 190px;
+    }
+    .card{
+        margin-top: 15px;
+    }
+    .common_heading {
+        margin-bottom: 50px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    form{
+        margin-top: 20px;
+    }
+    .footer_right {
+        float: none !important;
+        text-align: center;
+    }
+    .counter_box{
+        margin-top: 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .common_btn {
+        font-size: 16px;
+        padding: 5px 35px;
+    }
+    .main_right{
+        margin-top: 15px;
+    }
+    .main_right img{
+        float: none !important;
+        align-items: center;
+    }
+    #contact_me, #blog, #project, #testimoni, #resume, #hire, #skill, #counter_sec, #service, #about {
+        padding: 70px 0;
+    }
+    .common_heading {
+        margin-bottom: 50px;
+    }
+    .about_left {
+        margin: 0 auto;
+    }
+    .about_right{
+        margin-top: 20px;
+    }
+    .about_right p {
+        font-size: 17px;
+    }
+    .about_right span {
+        font-size: 14px;
+    }
+    .counter_box{
+        margin-top: 20px;
+    }
+    .skill_content {
+        padding-right: 15px;
+    }
+    .skill_right{
+        padding-top: 15px;
+    }
+    #hire p {
+        margin: 10px 0;
+    }
+    .skill_left_box {
+        padding-right: 20px;
+    }
+    .shuffle-group .shuffle-me {
+        width: 95.9%;
+    }
+    .shuffle-group .shuffle_one {
+        height: 330px;
+    }
+    .card{
+        margin-top: 15px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    form{
+        margin-top: 20px;
+    }
+    .footer_left{
+        text-align: center;
+    }
+    .footer_right {
+        float: none !important;
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #contact_me, #blog, #project, #testimoni, #resume, #hire, #skill, #counter_sec, #service, #about {
+        padding: 70px 0;
+    }
+    .common_heading {
+        margin-bottom: 60px;
+    }
+    .about_left {
+        width: 275px;
+    }
+    .about_left::after {
+        width: 285px;
+    }
+    .about_right{
+        margin-top: 0px;
+    }
+    .hire{
+        margin-bottom: 10px;
+    }
+    .counter_content p {
+        font-size: 16px;
+    }
+    .skill_content {
+        padding-right: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    #hire p{
+        margin-top: 10px;
+    }
+    .common_btn {
+        padding: 7px 40px;
+        font-size: 18px;
+    }
+    .skill_left_box {
+        padding-right: 20px;
+    }
+    .shuffle-group .shuffle_one {
+        height: 460px;
+        width: 98.9%;
+    }
+    .shuffle-group .shuffle-me {
+        width: 98.9%;
+    }
+    .card-body {
+        padding: 25px 15px 50px 15px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+    .card_btn {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .shuffle-group .shuffle_one {
+        width: 65%;
+        height: 400px;
+    }
+    .two .shuffle-me {
+        margin: 5px;
+      }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* 
+ XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
